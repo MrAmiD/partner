@@ -24,9 +24,10 @@ $(function() {
         $('.js-single-i input[type=checkbox]').not(this).prop('checked', false);
     }); 
     //setInvest start
-    $('select').styler({
+    $('select, input[type="checkbox"]').styler({
         selectSearch: true,
     });
+ 
     //setInvest end
 
 

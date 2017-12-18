@@ -323,21 +323,11 @@ html.mm-opening .mm-menu~.mm-slideout
 	h1
 		text-align: center
 		font-family: $default-font
-		margin-top: 63px
-		font-size: 30px
+		font-size: 22px
 		text-transform: uppercase
 		position: relative
-		padding-bottom: 55px
-		margin-bottom: 14px
-		&:after
-			content: ''
-			position: absolute
-			width: 3px
-			height: 50px
-			background: $accent
-			left: 50%
-			transform: translateX(-50%)
-			bottom: -6px
+		margin-top: 19px
+		margin-bottom: 25px
 	h2
 		font-size: 24px
 		font-weight: 500
@@ -377,7 +367,7 @@ html.mm-opening .mm-menu~.mm-slideout
 		font-size: 16px
 		font-weight: 900
 	p
-		font-size: 16px
+		font-size: 14px
 		line-height: 26px
 		margin-bottom: 20px
 		max-width: 850px
@@ -527,29 +517,24 @@ html.mm-opening .mm-menu~.mm-slideout
 
 .breadcrumb
 	padding: 0
-	margin-bottom: 20px
 	list-style: none
 	background-color: transparent
-	-webkit-border-radius: 4px
 	border-radius: 4px
-	margin: 15px 0px
-	margin-top: 45px
 	text-align: left
-	padding-left: 49px
+	margin: 0px
 	li
 		display: inline-block
-		font-size: 14px
+		font-size: 12px
 		&.active
 			span
-				border-bottom: solid 1px #989898
-				color: #989898
+				color: $accent2
 		a
-			color: #989898
+			color: $dark
 			&:hover, &:focus
 				color: $accent
 				text-decoration: none
 	&>li+li:before
-		content: " | "
+		content: " / "
 		padding: 0 10px
 		color: $dark
 		font-weight: 500
@@ -1047,7 +1032,8 @@ html.mm-opening .mm-menu~.mm-slideout
 				top: 1px
 				width: 34px
 				height: 34px
-				background: $accent
+				background: $accent3
+				color: #FFFFFF
 				font-size: 12px
 				font-weight: 900
 				display: flex
@@ -1254,7 +1240,9 @@ html.mm-opening .mm-menu~.mm-slideout
 	background: #FFFFFF
 #my-footer
 	height: 500px
-
+.bread-cont
+	padding: 23px
+	margin-bottom: 12px
 /*Project end*/
 
 @import "media" // Всегда в конце

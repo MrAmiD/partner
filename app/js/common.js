@@ -25,7 +25,7 @@ $(function() {
     }); 
     //setInvest start
     $('select, input[type="checkbox"]').styler({
-        selectSearch: true,
+
     });
  
     //setInvest end
